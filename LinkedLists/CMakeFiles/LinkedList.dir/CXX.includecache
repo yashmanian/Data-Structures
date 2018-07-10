@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yashmanian/CPP/LinkedLists/src/List.cpp
+cstdlib
+-
+iostream
+-
+List.h
+/home/yashmanian/CPP/LinkedLists/src/List.h
+
+/home/yashmanian/CPP/LinkedLists/src/main.cpp
+iostream
+-
+cstdlib
+-
+List.h
+/home/yashmanian/CPP/LinkedLists/src/List.h
+
+include/List.h
+
