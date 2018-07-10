@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yashmanian/CPP/BinarySearch
+CMAKE_SOURCE_DIR = /home/yashmanian/CPP/DataStructures/BinarySearch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yashmanian/CPP/BinarySearch
+CMAKE_BINARY_DIR = /home/yashmanian/CPP/DataStructures/BinarySearch
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BinarySearch.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/BinarySearch.dir/flags.make
 
 CMakeFiles/BinarySearch.dir/src/main.cpp.o: CMakeFiles/BinarySearch.dir/flags.make
 CMakeFiles/BinarySearch.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yashmanian/CPP/BinarySearch/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BinarySearch.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BinarySearch.dir/src/main.cpp.o -c /home/yashmanian/CPP/BinarySearch/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yashmanian/CPP/DataStructures/BinarySearch/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BinarySearch.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BinarySearch.dir/src/main.cpp.o -c /home/yashmanian/CPP/DataStructures/BinarySearch/src/main.cpp
 
 CMakeFiles/BinarySearch.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BinarySearch.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yashmanian/CPP/BinarySearch/src/main.cpp > CMakeFiles/BinarySearch.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yashmanian/CPP/DataStructures/BinarySearch/src/main.cpp > CMakeFiles/BinarySearch.dir/src/main.cpp.i
 
 CMakeFiles/BinarySearch.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BinarySearch.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yashmanian/CPP/BinarySearch/src/main.cpp -o CMakeFiles/BinarySearch.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yashmanian/CPP/DataStructures/BinarySearch/src/main.cpp -o CMakeFiles/BinarySearch.dir/src/main.cpp.s
 
 CMakeFiles/BinarySearch.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/BinarySearch.dir/src/main.cpp.o.provides.build: CMakeFiles/BinarySear
 
 CMakeFiles/BinarySearch.dir/src/BST.cpp.o: CMakeFiles/BinarySearch.dir/flags.make
 CMakeFiles/BinarySearch.dir/src/BST.cpp.o: src/BST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yashmanian/CPP/BinarySearch/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BinarySearch.dir/src/BST.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BinarySearch.dir/src/BST.cpp.o -c /home/yashmanian/CPP/BinarySearch/src/BST.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yashmanian/CPP/DataStructures/BinarySearch/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BinarySearch.dir/src/BST.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BinarySearch.dir/src/BST.cpp.o -c /home/yashmanian/CPP/DataStructures/BinarySearch/src/BST.cpp
 
 CMakeFiles/BinarySearch.dir/src/BST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BinarySearch.dir/src/BST.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yashmanian/CPP/BinarySearch/src/BST.cpp > CMakeFiles/BinarySearch.dir/src/BST.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yashmanian/CPP/DataStructures/BinarySearch/src/BST.cpp > CMakeFiles/BinarySearch.dir/src/BST.cpp.i
 
 CMakeFiles/BinarySearch.dir/src/BST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BinarySearch.dir/src/BST.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yashmanian/CPP/BinarySearch/src/BST.cpp -o CMakeFiles/BinarySearch.dir/src/BST.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yashmanian/CPP/DataStructures/BinarySearch/src/BST.cpp -o CMakeFiles/BinarySearch.dir/src/BST.cpp.s
 
 CMakeFiles/BinarySearch.dir/src/BST.cpp.o.requires:
 
@@ -117,7 +117,7 @@ BinarySearch: CMakeFiles/BinarySearch.dir/src/main.cpp.o
 BinarySearch: CMakeFiles/BinarySearch.dir/src/BST.cpp.o
 BinarySearch: CMakeFiles/BinarySearch.dir/build.make
 BinarySearch: CMakeFiles/BinarySearch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yashmanian/CPP/BinarySearch/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BinarySearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yashmanian/CPP/DataStructures/BinarySearch/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BinarySearch"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BinarySearch.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/BinarySearch.dir/clean:
 .PHONY : CMakeFiles/BinarySearch.dir/clean
 
 CMakeFiles/BinarySearch.dir/depend:
-	cd /home/yashmanian/CPP/BinarySearch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yashmanian/CPP/BinarySearch /home/yashmanian/CPP/BinarySearch /home/yashmanian/CPP/BinarySearch /home/yashmanian/CPP/BinarySearch /home/yashmanian/CPP/BinarySearch/CMakeFiles/BinarySearch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yashmanian/CPP/DataStructures/BinarySearch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yashmanian/CPP/DataStructures/BinarySearch /home/yashmanian/CPP/DataStructures/BinarySearch /home/yashmanian/CPP/DataStructures/BinarySearch /home/yashmanian/CPP/DataStructures/BinarySearch /home/yashmanian/CPP/DataStructures/BinarySearch/CMakeFiles/BinarySearch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BinarySearch.dir/depend
 

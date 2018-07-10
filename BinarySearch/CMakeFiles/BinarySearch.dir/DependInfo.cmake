@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yashmanian/CPP/BinarySearch/src/BST.cpp" "/home/yashmanian/CPP/BinarySearch/CMakeFiles/BinarySearch.dir/src/BST.cpp.o"
-  "/home/yashmanian/CPP/BinarySearch/src/main.cpp" "/home/yashmanian/CPP/BinarySearch/CMakeFiles/BinarySearch.dir/src/main.cpp.o"
+  "/home/yashmanian/CPP/DataStructures/BinarySearch/src/BST.cpp" "/home/yashmanian/CPP/DataStructures/BinarySearch/CMakeFiles/BinarySearch.dir/src/BST.cpp.o"
+  "/home/yashmanian/CPP/DataStructures/BinarySearch/src/main.cpp" "/home/yashmanian/CPP/DataStructures/BinarySearch/CMakeFiles/BinarySearch.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

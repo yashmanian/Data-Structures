@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/yashmanian/CPP/BinarySearch/src/BST.cpp
+/home/yashmanian/CPP/DataStructures/BinarySearch/src/BST.cpp
 iostream
 -
 cstdlib
 -
 BST.h
-/home/yashmanian/CPP/BinarySearch/src/BST.h
+/home/yashmanian/CPP/DataStructures/BinarySearch/src/BST.h
 
-/home/yashmanian/CPP/BinarySearch/src/main.cpp
+/home/yashmanian/CPP/DataStructures/BinarySearch/src/main.cpp
 iostream
 -
 cstdlib
 -
 BST.h
-/home/yashmanian/CPP/BinarySearch/src/BST.h
+/home/yashmanian/CPP/DataStructures/BinarySearch/src/BST.h
 
 include/BST.h
 

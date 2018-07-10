@@ -1,1 +1,1 @@
-/usr/bin/c++    -std=c++11 -g   CMakeFiles/BinarySearch.dir/src/main.cpp.o CMakeFiles/BinarySearch.dir/src/BST.cpp.o  -o BinarySearch 
+/usr/bin/c++      CMakeFiles/BinarySearch.dir/src/main.cpp.o CMakeFiles/BinarySearch.dir/src/BST.cpp.o  -o BinarySearch 
