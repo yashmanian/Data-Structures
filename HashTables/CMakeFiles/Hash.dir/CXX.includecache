@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yashmanian/CPP/DataStructures/HashTables/src/hash.cpp
+hash.h
+/home/yashmanian/CPP/DataStructures/HashTables/src/hash.h
+
+/home/yashmanian/CPP/DataStructures/HashTables/src/main.cpp
+cstdlib
+-
+iostream
+-
+string
+-
+hash.h
+/home/yashmanian/CPP/DataStructures/HashTables/src/hash.h
+
+include/hash.h
+cstdlib
+-
+iostream
+-
+string
+-
+
