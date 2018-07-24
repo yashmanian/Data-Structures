@@ -51,3 +51,32 @@ void Graph::BFS(int s)
 	}
 
 }
+
+void Graph::DFSUtil(int v, bool visited[])
+{
+	// Mark current node as visited and print
+	visited[v] = true;
+	cout << v << " ";
+
+	// Recur for all vertices adjacent to this vertex
+	list<int>::iterator i;
+	for (i = adj[v].begin(); i != adj[v].end(); ++i)
+	{
+		if(!visited[*i])
+			DFSUtil(*i, visited);
+	}
+}
+
+void Graph::DFS(int v)
+{
+
+	// Mark all vertices not visited
+	bool *visited = new bool[V];
+	for(int i = 0; i < V; i++)
+	{
+		visited[i] = false;
+	}
+
+	// Call recursive DFS function
+	DFSUtil(v, visited);
+}
