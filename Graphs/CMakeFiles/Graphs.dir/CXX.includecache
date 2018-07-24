@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yashmanian/CPP/DataStructures/Graphs/src/Graph.cpp
+Graph.h
+/home/yashmanian/CPP/DataStructures/Graphs/src/Graph.h
+
+/home/yashmanian/CPP/DataStructures/Graphs/src/main.cpp
+iostream
+-
+list
+-
+Graph.h
+/home/yashmanian/CPP/DataStructures/Graphs/src/Graph.h
+
+include/Graph.h
+iostream
+-
+list
+-
+
