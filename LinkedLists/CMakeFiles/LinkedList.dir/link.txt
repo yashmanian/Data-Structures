@@ -1,1 +1,1 @@
-/usr/bin/c++    -std=c++11 -g   CMakeFiles/LinkedList.dir/src/main.cpp.o CMakeFiles/LinkedList.dir/src/List.cpp.o  -o LinkedList 
+/usr/bin/c++      CMakeFiles/LinkedList.dir/src/main.cpp.o CMakeFiles/LinkedList.dir/src/List.cpp.o  -o LinkedList 

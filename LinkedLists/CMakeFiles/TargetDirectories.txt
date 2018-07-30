@@ -1,3 +1,3 @@
-/home/yashmanian/CPP/LinkedLists/CMakeFiles/rebuild_cache.dir
-/home/yashmanian/CPP/LinkedLists/CMakeFiles/edit_cache.dir
-/home/yashmanian/CPP/LinkedLists/CMakeFiles/LinkedList.dir
+/home/yashmanian/CPP/DataStructures/LinkedLists/CMakeFiles/rebuild_cache.dir
+/home/yashmanian/CPP/DataStructures/LinkedLists/CMakeFiles/edit_cache.dir
+/home/yashmanian/CPP/DataStructures/LinkedLists/CMakeFiles/LinkedList.dir

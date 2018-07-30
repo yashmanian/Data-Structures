@@ -10,6 +10,7 @@ List::List()
 	head = NULL;
 	curr = NULL;
 	temp = NULL;
+	length = 0;
 }
 
 void List::addAtIndex(int addData, int index)
@@ -18,30 +19,40 @@ void List::addAtIndex(int addData, int index)
 	n->next = NULL;
 	n->data = addData;
 	curr = head;
-	temp = curr->next;
-	if(index == 1)
+	temp = curr;
+	int count = 0;
+
+	while(curr != NULL)
 	{
-		List::addAtHead(addData);
-	}
-	else
-	{
-		int i = 1;
-		while(i<index && curr != NULL)
+		if(index == 0)
 		{
-			curr = curr->next;
-			temp = curr->next;
-			i++;
+			addAtHead(addData);
+			//length = length + 1;
+			break;
 		}
-		if(curr == NULL)
+		else if(index == length)
 		{
-			cout << "Index was not in list\n";
-			delete n;
+			addAtTail(addData);
+			//length = length + 1;
+			
+			break;
 		}
-		else
+		else if(index > length)
 		{
-			curr->next = n;
-			n->next = temp;
+			cout << "Index greater than List length!" << endl;
+			break; 
 		}
+		else if(count == index)
+		{
+			temp->next = n;
+			n->next = curr;
+			length = length + 1;
+			cout << "Node added at index = " << count << ", List length = " << length << endl;
+			break;
+		}
+		temp = curr;
+		curr = curr->next;
+		count++;
 	}
 
 }
@@ -59,6 +70,8 @@ void List::addAtHead(int addData)
 	{
 		head = n;
 	}
+	length = length + 1;
+	cout << "Node added at head, List length = " << length << endl;
 }
 
 
@@ -74,36 +87,43 @@ void List::addAtTail(int addData)
 	}
 	curr->next = n;
 	n->next = NULL;
+	length = length + 1;
+	cout << "Node added at tail, List length = " << length << endl;
 }
 
-void List::DeleteNode(int delData)
+void List::DeleteNode(int index)
 {
 	nodePtr delPtr = NULL;
-	temp = head;
 	curr = head;
-	while(curr != NULL && curr->data != delData)
+	temp = curr;
+	int count = 0;
+	while(curr != NULL)
 	{
+		if(index == 0)
+		{
+			delPtr = head;
+			head = head->next;
+			delete delPtr;
+			length--;
+			break;
+		}
+		else if(index > length - 1)
+		{
+			cout << "Index greater than List length!" << endl;
+			break; 
+		}
+		else if(count == index)
+		{
+			delPtr = curr;
+			temp->next = curr->next;
+			delete delPtr;
+			break;
+		}
 		temp = curr;
 		curr = curr->next;
+		count++;
 	}
-	if(curr == NULL)
-	{
-		cout << delData << " was not in list\n";
-		delete delPtr;
-	}
-	else
-	{
-		delPtr = curr;
-		curr = curr->next;
-		temp->next = curr;
-		if(delPtr == head)
-		{
-			head = head->next;
-			temp = NULL;
-		}
-		delete delPtr;
-		cout << "The value " << delData << " was deleted\n";
-	}
+
 }
 
 void List::PrintList()
@@ -114,4 +134,27 @@ void List::PrintList()
 		cout << curr->data << endl;
 		curr = curr->next;
 	}
+}
+
+int List::get(int index)
+{
+	curr = head;
+	int data = 0;
+	int count = 0;
+	while(curr != NULL)
+	{
+		if(count == index)
+		{
+			data = curr->data;
+			break;
+		}
+		curr = curr->next;
+		count++;
+	}
+
+	if(curr == NULL)
+	{
+		data = -1;
+	}
+	return data;
 }

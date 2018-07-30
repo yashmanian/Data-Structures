@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yashmanian/CPP/LinkedLists
+CMAKE_SOURCE_DIR = /home/yashmanian/CPP/DataStructures/LinkedLists
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yashmanian/CPP/LinkedLists
+CMAKE_BINARY_DIR = /home/yashmanian/CPP/DataStructures/LinkedLists
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LinkedList.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/LinkedList.dir/flags.make
 
 CMakeFiles/LinkedList.dir/src/main.cpp.o: CMakeFiles/LinkedList.dir/flags.make
 CMakeFiles/LinkedList.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yashmanian/CPP/LinkedLists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkedList.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/src/main.cpp.o -c /home/yashmanian/CPP/LinkedLists/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yashmanian/CPP/DataStructures/LinkedLists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkedList.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/src/main.cpp.o -c /home/yashmanian/CPP/DataStructures/LinkedLists/src/main.cpp
 
 CMakeFiles/LinkedList.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yashmanian/CPP/LinkedLists/src/main.cpp > CMakeFiles/LinkedList.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yashmanian/CPP/DataStructures/LinkedLists/src/main.cpp > CMakeFiles/LinkedList.dir/src/main.cpp.i
 
 CMakeFiles/LinkedList.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yashmanian/CPP/LinkedLists/src/main.cpp -o CMakeFiles/LinkedList.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yashmanian/CPP/DataStructures/LinkedLists/src/main.cpp -o CMakeFiles/LinkedList.dir/src/main.cpp.s
 
 CMakeFiles/LinkedList.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/LinkedList.dir/src/main.cpp.o.provides.build: CMakeFiles/LinkedList.d
 
 CMakeFiles/LinkedList.dir/src/List.cpp.o: CMakeFiles/LinkedList.dir/flags.make
 CMakeFiles/LinkedList.dir/src/List.cpp.o: src/List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yashmanian/CPP/LinkedLists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LinkedList.dir/src/List.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/src/List.cpp.o -c /home/yashmanian/CPP/LinkedLists/src/List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yashmanian/CPP/DataStructures/LinkedLists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LinkedList.dir/src/List.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/src/List.cpp.o -c /home/yashmanian/CPP/DataStructures/LinkedLists/src/List.cpp
 
 CMakeFiles/LinkedList.dir/src/List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/src/List.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yashmanian/CPP/LinkedLists/src/List.cpp > CMakeFiles/LinkedList.dir/src/List.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yashmanian/CPP/DataStructures/LinkedLists/src/List.cpp > CMakeFiles/LinkedList.dir/src/List.cpp.i
 
 CMakeFiles/LinkedList.dir/src/List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/src/List.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yashmanian/CPP/LinkedLists/src/List.cpp -o CMakeFiles/LinkedList.dir/src/List.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yashmanian/CPP/DataStructures/LinkedLists/src/List.cpp -o CMakeFiles/LinkedList.dir/src/List.cpp.s
 
 CMakeFiles/LinkedList.dir/src/List.cpp.o.requires:
 
@@ -117,7 +117,7 @@ LinkedList: CMakeFiles/LinkedList.dir/src/main.cpp.o
 LinkedList: CMakeFiles/LinkedList.dir/src/List.cpp.o
 LinkedList: CMakeFiles/LinkedList.dir/build.make
 LinkedList: CMakeFiles/LinkedList.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yashmanian/CPP/LinkedLists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LinkedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yashmanian/CPP/DataStructures/LinkedLists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LinkedList"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LinkedList.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/LinkedList.dir/clean:
 .PHONY : CMakeFiles/LinkedList.dir/clean
 
 CMakeFiles/LinkedList.dir/depend:
-	cd /home/yashmanian/CPP/LinkedLists && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yashmanian/CPP/LinkedLists /home/yashmanian/CPP/LinkedLists /home/yashmanian/CPP/LinkedLists /home/yashmanian/CPP/LinkedLists /home/yashmanian/CPP/LinkedLists/CMakeFiles/LinkedList.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yashmanian/CPP/DataStructures/LinkedLists && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yashmanian/CPP/DataStructures/LinkedLists /home/yashmanian/CPP/DataStructures/LinkedLists /home/yashmanian/CPP/DataStructures/LinkedLists /home/yashmanian/CPP/DataStructures/LinkedLists /home/yashmanian/CPP/DataStructures/LinkedLists/CMakeFiles/LinkedList.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LinkedList.dir/depend
 

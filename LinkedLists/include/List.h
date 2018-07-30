@@ -13,6 +13,7 @@ private:
 	nodePtr head;
 	nodePtr curr;
 	nodePtr temp;
+	int length;
 
 public:
 	List();
@@ -20,8 +21,9 @@ public:
 	void addAtIndex(int addData, int index);
 	void addAtHead(int addData);
 	void addAtTail(int addData);
-	void DeleteNode(int delData);
+	void DeleteNode(int index);
 	void PrintList();
+	int get(int index);
 };
 
 #endif

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yashmanian/CPP/LinkedLists/src/List.cpp" "/home/yashmanian/CPP/LinkedLists/CMakeFiles/LinkedList.dir/src/List.cpp.o"
-  "/home/yashmanian/CPP/LinkedLists/src/main.cpp" "/home/yashmanian/CPP/LinkedLists/CMakeFiles/LinkedList.dir/src/main.cpp.o"
+  "/home/yashmanian/CPP/DataStructures/LinkedLists/src/List.cpp" "/home/yashmanian/CPP/DataStructures/LinkedLists/CMakeFiles/LinkedList.dir/src/List.cpp.o"
+  "/home/yashmanian/CPP/DataStructures/LinkedLists/src/main.cpp" "/home/yashmanian/CPP/DataStructures/LinkedLists/CMakeFiles/LinkedList.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
